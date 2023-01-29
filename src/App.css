@@ -1,0 +1,17 @@
+.row {
+  display: flex;
+  justify-content: space-evenly
+}
+
+.col-1 {
+  width: 50%;
+  float: left;
+}
+.col-2 {
+  width: 50%;
+  float: right;
+}
+
+.notbold {
+  font-weight: normal
+}
