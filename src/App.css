@@ -1,17 +1,45 @@
+input {
+  width:40%;
+}
+.form{
+  text-align: center;
+}
+.phone{
+  margin-left: 30%;
+}
+.form-control{
+  width: 40% !important;
+}
 .row {
   display: flex;
-  justify-content: space-evenly
+  justify-content: space-around
+}
+
+.col{
+  width: 50%;
+  text-align: center;
 }
 
 .col-1 {
-  width: 50%;
   float: left;
+  margin-left: 20%;
 }
 .col-2 {
-  width: 50%;
   float: right;
+  margin-right: 20%;
 }
 
 .notbold {
   font-weight: normal
+}
+.bar{
+  width: 50%;
+  margin-left: 25%;
+}
+.btn{
+  width: 100px;
+}
+.btn-lg{
+  width: 200px;
+  margin-top: 100px;
 }

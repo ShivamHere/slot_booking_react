@@ -1,0 +1,1 @@
+exports.duration = 30;
